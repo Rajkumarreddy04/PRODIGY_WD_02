@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://image.freepik.com/free-photo/hand-holding-stopwatch_53876-24904.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+  position:-webkit-sticky;
+  right: 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-right: 30rem;
+}
+
+.time {
+  padding: 1rem 0;
+  font-size: 2rem;
+  margin-right: 20px;
+
+}
+
+h1,
+p {
+  color: #f8f8f8;
+}
+
+button {
+  padding: 0.9rem 1rem;
+  margin: 0 0.2rem;
+  border-radius: 10px;
+  border: 1px solid #f8f8f8;
+}
+
+button:hover {
+  background-color: rgb(202, 32, 32);
+  color: #f8f8f8;
+}
+
+#lapsList {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
